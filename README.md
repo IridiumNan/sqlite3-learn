@@ -2,6 +2,12 @@
 
 [official docs](https://sqlite.org/cli.html)
 
+## OPEN FILE
+
+```bash
+sqlite3 <file name>
+```
+
 ## DOT COMMANDS
 
 ```sql
