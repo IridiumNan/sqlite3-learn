@@ -68,3 +68,16 @@ UPDATE coffee_table SET name = NULL where id = 1;
 DELETE FROM coffee_table
 WHERE id = 1;
 ```
+
+## go-sqlite3 types
+
+|go        | sqlite3           |
+|----------|-------------------|
+|nil       | null              |
+|int       | integer           |
+|int64     | integer           |
+|float64   | float             |
+|bool      | integer           |
+|[]byte    | blob              |
+|string    | text              |
+|time.Time | timestamp/datetime|
